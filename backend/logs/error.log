@@ -1,0 +1,41 @@
+2024-07-08 19:33:14 ERROR: Internal Server Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "reviews_rating_key"
+DETAIL:  Key (rating)=(3) already exists.
+
+[SQL: INSERT INTO reviews (rating, created_at) VALUES (%(rating)s, now()) RETURNING reviews.id, reviews.created_at]
+[parameters: {'rating': 3}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-07-08 19:44:49 ERROR: Internal Server Error: (psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[SQL: INSERT INTO reviews (rating, created_at) VALUES (%(rating)s, now()) RETURNING reviews.id, reviews.created_at]
+[parameters: {'rating': 3}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:48:10 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:48:25 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:48:37 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:48:56 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:49:58 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:51:26 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-07-08 19:54:25 ERROR: Internal Server Error: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
